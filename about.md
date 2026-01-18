@@ -8,3 +8,5 @@ Shalom Keshet is an independent researcher working at the intersection of mathem
 His broader interests include number theory, functional transformations, and exploratory connections between discrete dynamical systems and continuous models. Alongside mathematical research, he engages in scientific and technical writing, aiming to communicate complex ideas with conceptual clarity and rigor.
 
 His long-term research direction is centered on developing mathematically principled tools for symbolic transformation and analysis, with potential applications across theoretical mathematics and computational science.
+
+Additional background in scientific writing and outreach exists but is intentionally kept separate from the research focus of this site.
