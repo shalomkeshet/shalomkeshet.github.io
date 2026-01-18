@@ -1,0 +1,7 @@
+title: "Your Name"
+description: "Mathematics · Physics · Computer Science"
+theme: null
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  
