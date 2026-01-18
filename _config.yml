@@ -1,7 +1,6 @@
-title: "Your Name"
-description: "Mathematics · Physics · Computer Science"
+title: "Shalom Keshet"
+description: "Mathematics · Computation · Mathematical Physics"
 theme: null
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  
