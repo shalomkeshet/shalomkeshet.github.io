@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: /cv/
+permalink: /curriculum-vitae/
 ---
 
 Download: **[Curriculum Vitae (PDF)](/cv/cv.pdf)**
