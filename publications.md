@@ -3,11 +3,19 @@ layout: page
 title: Publications / Writing
 ---
 
+## Research writing
+- **A Novel Approach to Transforming Piecewise Functions** (2025)  
+  viXra:2507.0216  
+  [viXra](https://vixra.org/abs/2507.0216)
+
 ## Books
-- **Title** — (science / fiction) — year — link
+### Science & non-fiction
+- **Herman Potočnik’s Space Odyssey** — science writing on astronautics and space systems
 
-## Articles & essays
-- **Title** — venue — year — link
+### Fiction
+- **The Lost Boy** — novel (translated into Slovenian)  
+- **Giratina: The Distortion World** — science-inspired fiction  
+- **What Happened to Gravity!** — speculative science fiction
 
-## Talks (optional)
-- **Title** — place — date — link/notes
+## Essays & other writing
+Selected technical and scientific essays (links to be added).

@@ -3,7 +3,8 @@ layout: page
 title: About
 ---
 
-Two short paragraphs about research identity and direction.
+Shalom Keshet is an independent researcher working at the intersection of mathematics and computation, with a primary focus on algebraic and analytic methods for transforming piecewise-defined functions into smooth, differentiable representations. His work explores symbolic and conditional frameworks that bridge discrete structures with continuous analysis.
 
-- Core interests: (theory-first bullets)
-- Long-term direction: (one line)
+His broader interests include number theory, functional transformations, and exploratory connections between discrete dynamical systems and continuous models. Alongside mathematical research, he engages in scientific and technical writing, aiming to communicate complex ideas with conceptual clarity and rigor.
+
+His long-term research direction is centered on developing mathematically principled tools for symbolic transformation and analysis, with potential applications across theoretical mathematics and computational science.

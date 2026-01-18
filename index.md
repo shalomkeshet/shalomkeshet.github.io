@@ -3,18 +3,22 @@ layout: default
 title: Home
 ---
 
-# Your Name
+# Shalom Keshet
 
-**Mathematics · Physics · Computer Science**  
-Interdisciplinary work in mathematics, physics, and computation.
+**Mathematics · Computation · Mathematical Physics**
 
-_Current affiliation (optional)._  
+Research on algebraic and analytic transformations of piecewise-defined functions, with applications to number theory and symbolic computation.
 
-## Research focus
-One sentence describing what you actually study (no hype).
+Independent researcher.
 
-## Quick links
+## Selected focus
+- Algebraic frameworks for transforming piecewise functions into smooth representations  
+- Conditional operators and symbolic methods in analysis  
+- Exploratory connections between discrete dynamics and continuous models  
+
+## Links
 - [Research](/research)
-- [CV (PDF)](/cv)
+- [Publications & Writing](/publications)
 - [Code](/code)
+- [CV](/cv)
 - [Contact](/contact)
