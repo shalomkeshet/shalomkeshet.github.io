@@ -20,5 +20,5 @@ Independent researcher.
 - [Research](/research)
 - [Publications & Writing](/publications)
 - [Code](/code)
-- [CV](/cv)
+- [CV](/curriculum-vitae/)
 - [Contact](/contact)
