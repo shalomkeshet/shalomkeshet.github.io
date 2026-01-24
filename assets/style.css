@@ -24,26 +24,33 @@ body {
   .nav a { display: inline-block; margin: 4px 10px 0 0; }
 }
 
-.page-title{
-  display: flex;
+/* Home title: logo inline before name (responsive) */
+.page-title--home{
+  display: inline-flex;
   align-items: center;
-  gap: 18px;
+  gap: 0.9rem;
+  margin: 24px 0 8px;
+  white-space: nowrap;
 }
 
-.title-logo{
-  height: 126px;      /* adjust this number to taste */
+.page-title--home .title-logo{
+  height: 1.15em;       /* scales with the H1 font size */
   width: auto;
-  display: block;
-  border-radius: 12px;      /* soft corner */
-  background: #000;        /* keeps logo readable on white site */
-  padding: 12px 14px;        /* creates a neat "badge" */
+  display: inline-block;
+
+  background: #000;
+  padding: 0.25em 0.30em;
+  border-radius: 0.40em;
 }
 
-/* Make the badge smaller on mobile */
-@media (max-width: 640px){
-  .title-logo{
-    height: 96px;  /* 3 × 32px */
-    padding: 10px 12px;
-    border-radius: 10px;
+.page-title--home .title-text{
+  line-height: 1;
+}
+
+/* Allow wrapping on small screens */
+@media (max-width: 520px){
+  .page-title--home{
+    white-space: normal;
+    flex-wrap: wrap;
   }
 }

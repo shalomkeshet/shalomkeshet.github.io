@@ -5,9 +5,9 @@ title: Home
 
 <!-- # Shalom Keshet -->
 
-<h1 class="page-title">
+<h1 class="page-title page-title--home">
   <img class="title-logo" src="{{ site.baseurl }}/assets/images/logo.svg" alt="" aria-hidden="true">
-  <span>Shalom Keshet</span>
+  <span class="title-text">Shalom Keshet</span>
 </h1>
 
 **Mathematics · Computation · Mathematical Physics**
