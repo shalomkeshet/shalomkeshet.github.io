@@ -5,6 +5,12 @@ title: Home
 
 # Shalom Keshet
 
+<div class="hero-logo">
+  <img src="{{ site.baseurl }}/assets/images/logo.svg"
+       alt="Mathematics–Physics logo"
+       class="logo-img">
+</div>
+
 **Mathematics · Computation · Mathematical Physics**
 
 Research on algebraic and analytic transformations of piecewise-defined functions, with applications to number theory and symbolic computation.
