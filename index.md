@@ -3,12 +3,13 @@ layout: default
 title: Home
 ---
 
-<!-- # Shalom Keshet -->
+<div class="home-logo">
+  <img src="{{ site.baseurl }}/assets/images/logo_bw.svg"
+       alt="Logo"
+       class="home-logo-img">
+</div>
 
-<h1 class="page-title page-title--home">
-  <img class="title-logo" src="{{ site.baseurl }}/assets/images/logo.svg" alt="" aria-hidden="true">
-  <span class="title-text">Shalom Keshet</span>
-</h1>
+# Shalom Keshet
 
 **Mathematics · Computation · Mathematical Physics**
 
@@ -24,9 +25,9 @@ Independent researcher.
 
 ## Links
 
-- [Research](/research)
-- [Math · CS · Physics](/math-computing-physics)
-- [Publications & Writing](/publications)
-- [Code](/code)
-- [CV](/curriculum-vitae/)
-- [Contact](/contact)
+- [Research]({{ site.baseurl }}/research)
+- [Math · CS · Physics]({{ site.baseurl }}/math-computing-physics)
+- [Publications & Writing]({{ site.baseurl }}/publications)
+- [Code]({{ site.baseurl }}/code)
+- [CV]({{ site.baseurl }}/curriculum-vitae/)
+- [Contact]({{ site.baseurl }}/contact)

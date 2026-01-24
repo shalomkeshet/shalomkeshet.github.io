@@ -1,23 +1,20 @@
 :root { --max: 860px; }
 
-/* body {
+body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height: 1.6;
   background: #fff;
   color: #111;
-} */
-
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  line-height: 1.6;
-  background: #000;
-  color: #fff;
 }
 
 .content a { color: inherit; text-decoration: underline; }
-.footer { margin-top: 48px; font-size: 0.9rem; color: #aaa; }
+
+.footer {
+  margin-top: 48px;
+  font-size: 0.9rem;
+  color: #444;
+}
 
 .wrap { max-width: var(--max); margin: 0 auto; padding: 24px; }
 
@@ -27,60 +24,25 @@ body {
 .nav a:hover { text-decoration: underline; }
 
 .content h1 { margin-top: 24px; }
-.content a { color: inherit; text-decoration: underline; }
-
-.footer { margin-top: 48px; font-size: 0.9rem; color: #444; }
 
 @media (max-width: 640px) {
   .nav a { display: inline-block; margin: 4px 10px 0 0; }
 }
 
-/* Home title: logo inline before name (responsive) */
-.page-title--home{
-  display: inline-flex;
-  align-items: center;
-  gap: 0.9rem;
-  margin: 24px 0 8px;
-  white-space: nowrap;
+.home-logo{
+  display: flex;
+  justify-content: center;
+  margin: 34px 0 14px;
 }
 
-.page-title--home .title-logo{
-  height: 2.0em;       /* scales with the H1 font size */
-  width: auto;
-  display: inline-block;
-
-  background: #000;
-  padding: 0.25em 0.30em;
-  border-radius: 0.40em;
+.home-logo-img{
+  width: min(460px, 70vw);
+  height: auto;
+  display: block;
+  background: #fff;
 }
 
-.page-title--home .title-text{
-  line-height: 1;
-}
-
-/* Allow wrapping on small screens */
 @media (max-width: 520px){
-  .page-title--home{
-    white-space: normal;
-    flex-wrap: wrap;
-  }
-}
-
-/* Home background watermark */
-body.home::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image: url("/assets/images/logo.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: min(900px, 80vw);
-  opacity: 0.08;
-  pointer-events: none;
-  z-index: 0;
-}
-
-body.home .wrap{
-  position: relative;
-  z-index: 1;
+  .home-logo{ margin: 24px 0 10px; }
+  .home-logo-img{ width: min(380px, 86vw); }
 }
