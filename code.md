@@ -5,7 +5,7 @@ title: Code
 
 GitHub: https://github.com/shalomkeshet
 
-## Selected projects
+## Projects
 
 ### **CADS-Agri**  
 **Confidence-Based Agricultural Decision System**
