@@ -34,7 +34,7 @@ body {
 }
 
 .page-title--home .title-logo{
-  height: 1.15em;       /* scales with the H1 font size */
+  height: 2.0em;       /* scales with the H1 font size */
   width: auto;
   display: inline-block;
 
