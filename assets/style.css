@@ -24,12 +24,19 @@ body {
   .nav a { display: inline-block; margin: 4px 10px 0 0; }
 }
 
-/* Small logo next to page title (home) */
 .page-title{
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-top: 24px; /* matches your existing spacing */
+  gap: 18px;
+}
+
+.title-logo{
+  height: 126px;      /* adjust this number to taste */
+  width: auto;
+  display: block;
+  border-radius: 12px;      /* soft corner */
+  background: #000;        /* keeps logo readable on white site */
+  padding: 12px 14px;        /* creates a neat "badge" */
 }
 
 /* Make the badge smaller on mobile */
