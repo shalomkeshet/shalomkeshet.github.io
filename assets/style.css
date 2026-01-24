@@ -18,8 +18,16 @@ body {
 
 .wrap { max-width: var(--max); margin: 0 auto; padding: 24px; }
 
-.site-header { display: flex; gap: 16px; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+.site-header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
 .site-title a { font-weight: 600; text-decoration: none; color: inherit; }
+
 .nav a { margin-right: 12px; text-decoration: none; color: inherit; }
 .nav a:hover { text-decoration: underline; }
 
@@ -29,20 +37,26 @@ body {
   .nav a { display: inline-block; margin: 4px 10px 0 0; }
 }
 
-.home-logo{
-  display: flex;
-  justify-content: center;
-  margin: 34px 0 14px;
+/* Homepage watermark behind all content */
+body.home{
+  position: relative;
 }
 
-.home-logo-img{
-  width: min(460px, 70vw);
-  height: auto;
-  display: block;
-  background: #fff;
+body.home::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("/assets/images/logo_wht_to_blk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: min(700px, 75vw);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
 }
 
-@media (max-width: 520px){
-  .home-logo{ margin: 24px 0 10px; }
-  .home-logo-img{ width: min(380px, 86vw); }
+/* Keep page content above the watermark */
+body.home .wrap{
+  position: relative;
+  z-index: 1;
 }

@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-<div class="home-logo">
+<!-- <div class="home-logo">
   <img src="{{ site.baseurl }}/assets/images/logo_bw.svg"
        alt="Logo"
        class="home-logo-img">
-</div>
+</div> -->
 
 # Shalom Keshet
 
