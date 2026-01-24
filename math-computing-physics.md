@@ -14,7 +14,7 @@ My academic interests lie at the intersection of mathematics, computation, and p
 I have developed my mathematical thinking primarily through olympiad-style problem solving and team-based competitions, which emphasized creativity, rigor, and persistence.
 
 - **Indian Olympiad Qualifier in Mathematics (IOQM)** — 2024, 2025  
-- **Mathematics Olympiad at IIT Bombay**  
+- **Mathematics Olympiad at IIT Bombay — 2024**  
 - **Purple Comet! Math Meet** — 2025  
   *High School Mixed Teams category*  
 - **International Math Bowl** — 2025  
@@ -29,15 +29,7 @@ These experiences strengthened my ability to approach unfamiliar problems, commu
 
 ## Physics-focused exploration
 
-My interest in physics is closely tied to geometry, symmetry, and transformations, and I have built a strong conceptual foundation aligned with the **JEE Advanced physics syllabus**. I have studied and applied mathematical reasoning across core areas including:
-
-- **Classical mechanics:** kinematics, Newtonian dynamics, work–energy, momentum, rotational motion, gravitation  
-- **Oscillations and waves:** simple harmonic motion, wave propagation, superposition  
-- **Electricity and magnetism:** electrostatics, capacitors, current electricity, magnetic fields, electromagnetic induction  
-- **Optics:** geometric and wave optics  
-- **Modern physics:** atomic structure, nuclear physics, and introductory quantum concepts  
-
-Through this preparation, I developed the ability to translate physical situations into mathematical models, analyze limiting cases, and reason about invariant quantities.
+My interest in physics is closely tied to geometry, symmetry, and transformations. I have built a strong conceptual foundation in **classical mechanics, electromagnetism, optics, and modern physics**, using mathematically grounded approaches. I am particularly interested in translating physical phenomena into mathematical models, analyzing limiting cases, and identifying conserved quantities and invariant structures.
 
 ---
 
