@@ -5,13 +5,10 @@ title: Home
 
 # Shalom Keshet
 
-<div class="hero-logo">
-  <img src="{{ site.baseurl }}/assets/images/logo.png"
-       alt="Mathematics–Physics logo"
-       class="logo-img">
-</div>
-
-<!-- <img src="{{ site.baseurl }}/assets/images/logo.svg" class="logo-img" alt="Mathematics–Physics logo"> -->
+<h1 class="page-title">
+  <img class="title-logo" src="{{ site.baseurl }}/assets/images/logo.svg" alt="" aria-hidden="true">
+  <span>Shalom Keshet</span>
+</h1>
 
 **Mathematics · Computation · Mathematical Physics**
 
@@ -20,11 +17,13 @@ Research on algebraic and analytic transformations of piecewise-defined function
 Independent researcher.
 
 ## Selected focus
-- Algebraic frameworks for transforming piecewise functions into smooth representations  
-- Conditional operators and symbolic methods in analysis  
-- Exploratory connections between discrete dynamics and continuous models  
+
+- Algebraic frameworks for transforming piecewise functions into smooth representations
+- Conditional operators and symbolic methods in analysis
+- Exploratory connections between discrete dynamics and continuous models
 
 ## Links
+
 - [Research](/research)
 - [Math · CS · Physics](/math-computing-physics)
 - [Publications & Writing](/publications)

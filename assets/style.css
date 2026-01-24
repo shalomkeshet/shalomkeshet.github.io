@@ -24,24 +24,6 @@ body {
   .nav a { display: inline-block; margin: 4px 10px 0 0; }
 }
 
-/* Home logo */
-.hero-logo{
-  display: flex;
-  justify-content: center;
-  margin: 18px 0 22px;
-}
-
-.hero-logo .logo-frame{
-  background: #000;
-  padding: 14px;
-  border-radius: 12px;
-}
-
-.logo-img{
-  width: min(860px, 92vw);
-  height: auto;
-  display: block;
-}
 /* Small logo next to page title (home) */
 .page-title{
   display: flex;
