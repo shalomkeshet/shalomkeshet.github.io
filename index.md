@@ -6,10 +6,12 @@ title: Home
 # Shalom Keshet
 
 <div class="hero-logo">
-  <img src="{{ site.baseurl }}/assets/images/logo.svg"
+  <img src="{{ site.baseurl }}/assets/images/logo.png"
        alt="Mathematics–Physics logo"
        class="logo-img">
 </div>
+
+<!-- <img src="{{ site.baseurl }}/assets/images/logo.svg" class="logo-img" alt="Mathematics–Physics logo"> -->
 
 **Mathematics · Computation · Mathematical Physics**
 
