@@ -8,7 +8,10 @@ body {
   color: #111;
 }
 
-.content a { color: inherit; text-decoration: underline; }
+.content a {
+  color: inherit;
+  text-decoration: underline;
+}
 
 .footer {
   margin-top: 48px;
@@ -16,7 +19,11 @@ body {
   color: #444;
 }
 
-.wrap { max-width: var(--max); margin: 0 auto; padding: 24px; }
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 24px;
+}
 
 .site-header {
   display: flex;
@@ -26,37 +33,29 @@ body {
   flex-wrap: wrap;
 }
 
-.site-title a { font-weight: 600; text-decoration: none; color: inherit; }
+.site-title a {
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
 
-.nav a { margin-right: 12px; text-decoration: none; color: inherit; }
-.nav a:hover { text-decoration: underline; }
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: inherit;
+}
 
-.content h1 { margin-top: 24px; }
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.content h1 {
+  margin-top: 24px;
+}
 
 @media (max-width: 640px) {
-  .nav a { display: inline-block; margin: 4px 10px 0 0; }
-}
-
-/* Homepage watermark behind all content */
-body.home{
-  position: relative;
-}
-
-body.home::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image: url("/assets/images/logo_wht_to_blk.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: min(700px, 75vw);
-  opacity: 0.08;
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* Keep page content above the watermark */
-body.home .wrap{
-  position: relative;
-  z-index: 1;
+  .nav a {
+    display: inline-block;
+    margin: 4px 10px 0 0;
+  }
 }
