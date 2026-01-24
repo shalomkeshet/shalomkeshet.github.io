@@ -32,20 +32,11 @@ body {
   margin-top: 24px; /* matches your existing spacing */
 }
 
-.title-logo{
-  height: 42px;      /* adjust this number to taste */
-  width: auto;
-  display: block;
-  border-radius: 8px;      /* soft corner */
-  background: #000;        /* keeps logo readable on white site */
-  padding: 6px 8px;        /* creates a neat "badge" */
-}
-
 /* Make the badge smaller on mobile */
 @media (max-width: 640px){
   .title-logo{
-    height: 32px;
-    padding: 5px 7px;
-    border-radius: 7px;
+    height: 96px;  /* 3 × 32px */
+    padding: 10px 12px;
+    border-radius: 10px;
   }
 }
