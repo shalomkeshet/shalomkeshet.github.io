@@ -18,6 +18,7 @@ Independent researcher.
 
 ## Links
 - [Research](/research)
+- [Math · CS · Physics](/math-computing-physics)
 - [Publications & Writing](/publications)
 - [Code](/code)
 - [CV](/curriculum-vitae/)
